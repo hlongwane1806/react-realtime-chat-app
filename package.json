@@ -1,0 +1,25 @@
+{
+  "name": "react-realtime-chat-app",
+  "version": "1.0.0",
+  "description": "This is a realtime chat app built with socket.io and reactjs",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlongwane1806/react-realtime-chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlongwane1806/react-realtime-chat-app/issues"
+  },
+  "homepage": "https://github.com/hlongwane1806/react-realtime-chat-app#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
